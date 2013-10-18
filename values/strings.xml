@@ -5,41 +5,41 @@
     <string name="app_drawer_name">FauxClock</string>
 
     <!-- acquire root -->
-    <string name="acquire_root_loading">Checking Superuser and Busybox States</string>
-    <string name="acquire_root_acquired">su permissions granted</string>
-    <string name="acquire_root_denied">su permissions denied</string>
-    <string name="acquire_root_busybox_not_installed">busybox not installed or working</string>
-    <string name="acquire_root_bosybox_check_passed">busybox check passed</string>
-    <string name="acquire_root_setting_permissions">setting kernel permissions</string>
-    <string name="acquire_root_no_shell_service">No shell service running, starting service</string>
+    <string name="acquire_root_loading">جاري البحث عن صلاحيات الروت</string>
+    <string name="acquire_root_acquired">تم الحصول على صلاحيات الروت</string>
+    <string name="acquire_root_denied">تم رفض صلاحيات الروت</string>
+    <string name="acquire_root_busybox_not_installed">البيزي بوكس غير موجود او لا يعمل</string>
+    <string name="acquire_root_bosybox_check_passed">تم السماح للبيزي بوك</string>
+    <string name="acquire_root_setting_permissions">الحصول على صلاحيات الروت</string>
+    <string name="acquire_root_no_shell_service">لا يوجد عملة للروت , تشغيل العملية</string>
     
     <!-- lvl messages -->
-    <string name="lvl_checking_license">Checking Google License</string>
-    <string name="lvl_check_app_error">License Check Fatal Error :</string>
-    <string name="lvl_check_invalid">License Not Received!\nPlease make sure you have\nWiFi and/or Data connection\nand try again!</string>
+    <string name="lvl_checking_license">البحث عن حقوق البرنامج</string>
+    <string name="lvl_check_app_error">خطأ في البحث</string>
+    <string name="lvl_check_invalid">لم يتم الحصول على الحقوق,الرجاء التأكد من وجود اتصال بالإنترنت ثم حاول مجددا</string>
     
     <!-- unsupported kernel -->
-    <string name="unsupported_kernel_paragraph">This kernel is unsupported :(</string>
+    <string name="unsupported_kernel_paragraph">الكيرنيل المستخدم غير مدعوم</string>
 
     <!-- Fragments -->
-    <string name="fragment_not_supported">Not Supported!</string>
-    <string name="fragment_cpu_name">CPU Clock / Hotplug</string>
-    <string name="fragment_cpu_detail">CPU Clock and Hotplug Tweaks</string>
-    <string name="fragment_cpu_hint">Linux CPU Frequency Control</string>
-    <string name="fragment_voltage_name">Voltage Adjust</string>
-    <string name="fragment_voltage_detail">CPU Voltage Adjustments</string>
-    <string name="fragment_voltage_hint">under volt FAQ faux123</string>
-    <string name="fragment_governor_name">CPU Governor</string>
-    <string name="fragment_governor_detail">Governor Tweaks</string>
-    <string name="fragment_governor_hint">Linux governor tweaks</string>
-    <string name="fragment_socpower_name">CPU Idle / Stats</string>
-    <string name="fragment_socpower_detail">CPU Idle and Statistics</string>
-    <string name="fragment_socpower_hint">arm cpu idle power gating</string>
-    <string name="fragment_thermal_name">Thermal Manager</string>
-    <string name="fragment_thermal_detail">Thermal Management and Statistics</string>
-    <string name="fragment_thermal_hint">thermal throttling intellithermal</string>
-    <string name="fragment_gpu_name">GPU Manager</string>
-    <string name="fragment_gpu_detail">GPU Clock / Governor Tweaks</string>
+    <string name="fragment_not_supported">غير مدعوم!</string>
+    <string name="fragment_cpu_name">حدالمعالج \ الهوتبلق</string>
+    <string name="fragment_cpu_detail">تحسين المعالج \ الهوتبلق</string>
+    <string name="fragment_cpu_hint">التجكم في تردد معالج الينكس</string>
+    <string name="fragment_voltage_name">تغير الجهد</string>
+    <string name="fragment_voltage_detail">تغير جهد المعالج</string>
+    <string name="fragment_voltage_hint">معلومات عن تقليل الجهد</string>
+    <string name="fragment_governor_name">متحكم المعالج</string>
+    <string name="fragment_governor_detail">تعديلات المتحكم</string>
+    <string name="fragment_governor_hint">تعديلات متحكم لينكس</string>
+    <string name="fragment_socpower_name">المعالج خامل \ احصائيات</string>
+    <string name="fragment_socpower_detail">المعالج خامل والإحصائيات</string>
+    <string name="fragment_socpower_hint">معالج ارم خامل ومدخل الطاقة</string>
+    <string name="fragment_thermal_name">مدير الحرارة</string>
+    <string name="fragment_thermal_detail">مدير الحرارة وإحصائياتها</string>
+    <string name="fragment_thermal_hint">اختراق الحرارة</string>
+    <string name="fragment_gpu_name">مدير كرت الشاشة</string>
+    <string name="fragment_gpu_detail">سرعة كرت الشاشة \ تعديلات المتحكم</string>
     <string name="fragment_gpu_hint">arm gpu frequency control</string>
     <string name="fragment_iosched_name">I/O Scheduler</string>
     <string name="fragment_iosched_detail">I/O Scheduler Tweaks</string>
