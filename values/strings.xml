@@ -40,7 +40,7 @@
     <string name="fragment_thermal_hint">اختراق الحرارة</string>
     <string name="fragment_gpu_name">مدير كرت الشاشة</string>
     <string name="fragment_gpu_detail">سرعة كرت الشاشة \ تعديلات المتحكم</string>
-    <string name="fragment_gpu_hint">arm gpu frequency control</string>
+    <string name="fragment_gpu_hint">اعدادت تردد كرت شاشة ارم</string>
     <string name="fragment_iosched_name">جدول السويتش</string>
     <string name="fragment_iosched_detail">تعديلات جدول السويتش</string>
     <string name="fragment_iosched_hint">جدول سويتش اللينكس</string>
@@ -54,8 +54,8 @@
     <string name="fragment_color_detail">تعديلات اللون \ جاما</string>
     <string name="fragment_color_hint">معلومات الوان جاما</string>
     <string name="fragment_zcontrol_name">متحكم الذاكرة</string>
-    <string name="fragment_zcontrol_detail">Memory/Cache Tweaks and Statistics</string>
-    <string name="fragment_zcontrol_hint">ZRAM zcache wiki</string>
+    <string name="fragment_zcontrol_detail">احصائيات وتعديلات الذاكرة \ والكاش</string>
+    <string name="fragment_zcontrol_hint">معلومات عن الزي رام والزي كاش</string>
     <string name="fragment_misc_name">متنوع</string>
     <string name="fragment_misc_detail">تعديلات متنوعة</string>
     <string name="fragment_misc_hint">شحن اسرع , داينامك اف سينك</string>
@@ -91,16 +91,16 @@
     <string name="cpu_control_min_clock">الحد الأدنى</string>
     <string name="cpu_control_cpu_governor">متحكم المعالج :</string>
     <string name="cpu_control_mpdecision_switch">ام بي ديسجون</string>
-    <string name="cpu_control_mpdecision_paragraph">Stock Qualcomm hotplug driver. (Recommend Off)</string>
+    <string name="cpu_control_mpdecision_paragraph">درايفر هوتبلق معالج كوالكوم ( يستحسن إطفائه)</string>
     <string name="cpu_control_eco_mode_switch">المحافظ على البطارية</string>
-    <string name="cpu_control_eco_mode_paragraph">Special power savings mode Optimized for 2 cores</string>
+    <string name="cpu_control_eco_mode_paragraph">نظام المحافظه على البطارية المتطور للنواتين</string>
     <string name="cpu_control_snake_charmer_switch">سنايك تشارمر</string>
     <string name="cpu_control_snake_charmer_paragraph">تثبيت السرعة لكل الأجهوة</string>
     <string name="cpu_control_tegra3_cpu_quiet_governor">المتحكم الخفيف للتيجرا 3:</string>
     <string name="cpu_control_tegra3_user_cap_switch">تثبيت سرعة التيجرا 3</string>
     <string name="cpu_control_tegra3_user_cap_paragraph">Enable to CAP the maximum CPU frequencies on Tegra3 platforms</string>
     <string name="cpu_control_intelliplug_status">درافير انتربلق و الهوتبلق</string>
-    <string name="cpu_control_intelliplug_text">Enabled when stock hotplug driver is Off.</string>
+    <string name="cpu_control_intelliplug_text">يعمل عند إطفء درايفر الهوتبلق الأساسي</string>
 
     <!-- voltage control -->
     <string name="voltage_control_global_cpu_voltage_label">جهد المعالج العام :</string>
@@ -124,8 +124,8 @@
     <string name="gpu_control_governor_label">متحكم كرت الشاشة :</string>
     <string name="gpu_control_clock_control_label">متحكم حد كرت الشاشة :</string>
     <string name="gpu_control_vsync_toggle_label">في سينك</string>
-    <string name="gpu_control_msm_simple_laziness_label">Simple Governor: [Laziness]</string>
-    <string name="gpu_control_msm_simple_threshold_label">Simple Governor: [Ramp Threshold]</string>
+    <string name="gpu_control_msm_simple_laziness_label">متحكم : [ لايزينس [</string>
+    <string name="gpu_control_msm_simple_threshold_label">متحكم : [رانس ثريسهولد [</string>
     <string name="gpu_control_msm_simple_laziness_description">This adjusts the number of times the governor skips ramp down requests. Higher == better performance (more battery drain)</string>
     <string name="gpu_control_msm_simple_threshold_description">This adjusts the threshold to ramp up or down GPU frequencies. Lower == better performance (more battery drain)</string>
 
@@ -158,46 +158,46 @@
     <string name="misc_control_ogt_hack_n4_text">Default (Off). Enable this to allow for OTG operation. Special OTG Y-cable AND Charger are required for this HACK to work!</string>
 
     <!-- sweep2wake control -->
-    <string name="misc_control_sweep2wake_label">Sweep2Wake Function :</string>
-    <string name="misc_control_sweep2wake_paragraph">Default (Off). This option enable the sweep2wake feature (may cause more battery drain while in pocket)</string>
-    <string name="misc_control_sweep2wake_style">Sweep2Wake Style:</string>
-    <string name="misc_control_sweep2wake_led_checkbox">Disable Button LED for Sweep2Wake</string>
-    <string name="home2wake_control_warning_text">Warning: Home2wake driver is old. Update to newer kernel for Home2wake support!</string>
-    <string name="home2wake_h2w_label">home2wake Options:</string>
-    <string name="home2wake_h2w_0_radio">home2wake disabled</string>
-    <string name="home2wake_h2w_1_radio">home2wake</string>
-    <string name="home2wake_h2w_2_radio">home2wake + logo2sleep</string>
-    <string name="home2wake_h2w_3_radio">logo2wake + logo2sleep</string>
-    <string name="home2wake_l2m_label">logo2menu</string>
-    <string name="home2wake_l2m_active">active</string>
-    <string name="home2wake_l2m_inactive">inactive</string>
-    <string name="home2wake_l2s_label">logo2sleep long delay</string>
-    <string name="home2wake_l2s_active">active</string>
-    <string name="home2wake_l2s_inactive">inactive</string>
-    <string name="home2wake_s2w_label">sweep2wake</string>
-    <string name="home2wake_dt2w_label">doubletap2wake</string>
-    <string name="home2wake_pocket_detection_switch">pocket detection</string>
-    <string name="home2wake_l2m_2_phase_switch">logo2menu 2 phase</string>
-    <string name="home2wake_sleep_wake_vib_timer_label">Sleep Wake Vibration Strength:</string>
-    <string name="home2wake_s2w_active">active</string>
-    <string name="home2wake_s2w_inactive">inactive</string>
-    <string name="home2wake_s2w_shortsweep">shortsweepwake</string>
-    <string name="s2w_parameters_label">Sweep2Wake Parameters:</string>
-    <string name="s2w_start_position_label">Start Position: </string>
-    <string name="s2w_mid_position_label">Mid Position: </string>
-    <string name="s2w_end_position_label">End Position: </string>
-    <string name="s2w_thresholds_label">Threshold: </string>
-    <string name="s2w_orientations_label">Orientation: </string>
-    <string name="s2w_parameters_apply_button">Apply Parameters</string>
+    <string name="misc_control_sweep2wake_label">عملية المسح للتشغيل :</string>
+    <string name="misc_control_sweep2wake_paragraph">ينصح بإطفائه للمحافظه على البطاريه</string>
+    <string name="misc_control_sweep2wake_style">طريقة المسح للتشغيل :</string>
+    <string name="misc_control_sweep2wake_led_checkbox">تعطيل الضوء عند المسحل للتشغيل</string>
+    <string name="home2wake_control_warning_text">تحذير : درايفر الهوم للتشغيل قديم عليك تحدسث الكيرنيل لتشغيل الخاصية</string>
+    <string name="home2wake_h2w_label">خيارات الهوم للتشغيل :</string>
+    <string name="home2wake_h2w_0_radio">تعطيل الهوم للتشغيل</string>
+    <string name="home2wake_h2w_1_radio">الهوم للتشغيل</string>
+    <string name="home2wake_h2w_2_radio">الهوم للتشغيل + اللوقو للإطفاء</string>
+    <string name="home2wake_h2w_3_radio">اللوقو للتشغيل + اللوقو للإطفاء</string>
+    <string name="home2wake_l2m_label">اللوقو للخيارات</string>
+    <string name="home2wake_l2m_active">مفعل</string>
+    <string name="home2wake_l2m_inactive">غير مفعل</string>
+    <string name="home2wake_l2s_label">تأخير اللوقو للإطفاء</string>
+    <string name="home2wake_l2s_active">مفعل</string>
+    <string name="home2wake_l2s_inactive">غير مفعل</string>
+    <string name="home2wake_s2w_label">المسح للتشغيل</string>
+    <string name="home2wake_dt2w_label">النقر للتشغيل</string>
+    <string name="home2wake_pocket_detection_switch">إستشعار الجيب</string>
+    <string name="home2wake_l2m_2_phase_switch">اللوقو للمينيو للحاله</string>
+    <string name="home2wake_sleep_wake_vib_timer_label">مستوى الهزاز عند التشغيل الإطفاء :</string>
+    <string name="home2wake_s2w_active">مفعل</string>
+    <string name="home2wake_s2w_inactive">غير مفعل</string>
+    <string name="home2wake_s2w_shortsweep">المسح للتشغيل القصير</string>
+    <string name="s2w_parameters_label">عوامل المسح للتشغيل :</string>
+    <string name="s2w_start_position_label">مكان البدء :</string>
+    <string name="s2w_mid_position_label">مكان الوسط :</string>
+    <string name="s2w_end_position_label">مكان النهاية :</string>
+    <string name="s2w_thresholds_label">ثيرسهولد :</string>
+    <string name="s2w_orientations_label">الهيئة :</string>
+    <string name="s2w_parameters_apply_button">تفعيل العوامل</string>
 
     <!-- vibration control -->
-    <string name="vibration_control_label">Vibration Control:</string>
-    <string name="vibration_control_button">Test Vibration</string>
+    <string name="vibration_control_label">اعدادات الهزاز :</string>
+    <string name="vibration_control_button">تجربة الهزاز</string>
 
     <!-- color control -->
-    <string name="color_control_common_red_label">Red:</string>
-    <string name="color_control_common_green_label">Green:</string>
-    <string name="color_control_common_blue_label">Blue:</string>
+    <string name="color_control_common_red_label">احمر:</string>
+    <string name="color_control_common_green_label">اخضر:</string>
+    <string name="color_control_common_blue_label">ازرق:</string>
     <string name="color_control_no_support_paragraph">No Gamma Support Detected for this kernel.  Download my Enhanced Stock kernel for Gamma Support below!</string>
     <string name="color_control_enhanced_kernel_button">Enhanced Stock Kernel</string>
     <string name="color_control_custom_profiles">Custom Profiles:</string>
